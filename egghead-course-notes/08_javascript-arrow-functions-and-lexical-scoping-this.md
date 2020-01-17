@@ -50,10 +50,6 @@ The opposite of lexical scope is the `this` keyword, it is dynamic and absolutel
 
 The `this` in `getName` didn't take `firstName` in the `person` object because `person` is an object and not a function scope. `this` remains `undefined`. The next scope is the globabl `window` object which doesn't have a `firstName` property on it.
 
-[1:50] What is the next lexical scope for our arrow function again? Person is not within another function, right? It's defined that pure at the top. The next scope is going to be the global window object, which again, does not have a firstName property on it and we're going to get undefined.
-
-[2:05] In order to fix our lexical scope problem, we can make the getName function a regular function again that returns this arrow function. What is this arrows next lexically scoped or its authors time scope function? It's now getName, right?
-
 ```js
 const person = {
   firstName: 'tyler',
