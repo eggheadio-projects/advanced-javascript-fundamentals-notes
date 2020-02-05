@@ -49,7 +49,7 @@ addTwo(obj)
 console.log(obj) // {a: 2}
 ```
 
-When an object is passed into a function (`addTwo(obj)`), it will be passed by memory reference. That means that we are working with the same variable declared at the top of the file. 
+When an object is passed into a function (`addTwo(obj)`), it will be passed by memory reference. That means that we are working with the same variable. 
 
 ## Mutate a Primitive Type
 ```js
