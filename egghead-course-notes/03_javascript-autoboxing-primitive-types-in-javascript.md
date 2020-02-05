@@ -16,4 +16,4 @@ JavaScript uses a process called Autoboxing. **Autoboxing wraps Primitive Types 
 
 When a Primitive Type is wrapped, it will connect that Type with a built-in object prototype that corresponds with the Primitive Type. This is where you get `string.length`, `string.includes`, or `string.toUpperCase`. ([Methods documented on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype)).
 
-But because of autoboxing where, when we treat primitive types like an object and JavaScript wrapping those primitives into objects, you can see why this misconception has started and is here today.
+But because of autoboxing we treat primitive types like objects due to JavaScript wrapping those primitives into objects, now you can see why this misconception has started and is here today.
