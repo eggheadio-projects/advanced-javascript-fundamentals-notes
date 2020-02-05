@@ -1,6 +1,6 @@
 # [Autoboxing Primitive Types in JavaScript](https://egghead.io/lessons/javascript-autoboxing-primitive-types-in-javascript)
 
-"Everything in JavaScript is an Object" is something that you've probably been told sometime in your career. As was discussed in the previous lesson, [Working with Primitive Types](https://egghead.io/lessons/javascript-working-with-primitive-types), this is clearly not true. So what gives?
+"_Everything in JavaScript is an Object_" is something that you've probably been told sometime in your career. As was discussed in the previous lesson, [Working with Primitive Types](https://egghead.io/lessons/javascript-working-with-primitive-types), this is clearly not true. So what gives?
 
 ## Method used on Primitive Type
 ```js
