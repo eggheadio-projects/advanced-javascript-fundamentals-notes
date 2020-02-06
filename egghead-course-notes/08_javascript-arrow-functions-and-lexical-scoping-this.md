@@ -40,7 +40,7 @@ const person = {
 setInterval(person.getName, 3000)
 ```
 
-arrow functions don't immediately solve this problem for you. The answer lies in Lexical Scope.
+Arrow functions don't immediately solve this problem for you. The answer lies in Lexical Scope.
 
 **Lexical scope references author time of our code and not run time and creates a new scope for every function.**
 
@@ -63,4 +63,4 @@ const person = {
 setInterval(person.getName(), 3000)
 ```
 
-To fix the Lexical Scoping issue, you can wrap the arrow function itself in a function context. Above, `getName` is now the Lexical Scope of the arrow function so you can invoke `getName` in the `setInterval` and `this.firstName` will have a defined value which is set on the `person` object.
+To fix the Lexical Scope issue, you can wrap the arrow function itself in a function context. Above, `getName` is now the Lexical Scope of the arrow function so you can invoke `getName` in the `setInterval` and `this.firstName` will have a defined value which is set on the `person` object.
