@@ -1,6 +1,6 @@
 # [Arrow Functions and Lexical Scoping "this"](https://egghead.io/lessons/javascript-arrow-functions-and-lexical-scoping-this)
 
-`this` is not respected as a keyword in arrow functions, they are treated as any other variable.
+`this` is not respected as a keyword in arrow functions, it is treated as any other variable.
 
 ## `this` with a function declaration
 ```js
