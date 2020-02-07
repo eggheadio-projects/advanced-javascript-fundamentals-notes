@@ -36,7 +36,7 @@ console.log(firstName) // zac
 foo()
 ```
 
-To make the code work as we would expect it to, you can make the block scope a function and see that the console.logs will log out different variable values.
+To make the code work as we would expect it to, you can make the block scope a function and see that the `console.logs` will log out different variable values.
 
 **`var` declarations are hoisted to the top of their execution context with an initial value of `undefined`.**
 
@@ -54,7 +54,7 @@ console.log(firstName) // zac
 foo()
 ```
 
-Any vars declared in a global function context are placed on the window object.
+Any vars declared in a global function context are placed on the `window` object.
 So in the browser console, `window.firstName` will be `zac` for me.
 
 ## Block Scope with let
