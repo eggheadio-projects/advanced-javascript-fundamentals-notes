@@ -5,8 +5,7 @@
 **`this` keyword can be different depending how the function is called.**
 
 The context can change after you declare a function so you can't just look at the declaration to know exactly what `this` will be. You need to look at the call during runtime as well.
-
-## simple this demo 
+ 
 ```js
 const person = {
   firstName: 'zac',
@@ -59,7 +58,7 @@ const person = {
 console.log(person.value.getName()) // undefined is my first name
 ```
 
-You'll see in the example above how `this` can start affecting your code. Because `value` is the context for the function call and not `person`, `this` does not have access to `firstName` when it's at the root level of the `person object.
+You'll see in the example above how `this` can start affecting your code. Because `value` is the context for the function call and not `person`, `this` does not have access to `firstName` when it's at the root level of the `person` object.
 
 ```js
 function getName() {
