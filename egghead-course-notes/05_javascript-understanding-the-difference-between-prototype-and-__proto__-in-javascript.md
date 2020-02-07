@@ -16,7 +16,7 @@ Every time a function is created, JavaScript will add a property to that functio
 _Why does the `prototype` property exist if we already have __proto__?_ 
 _What purpose does `prototype` serve?_
 
-This `prototype` property is not used in the prototype chain look-up if we were to dot onto the foo function when looking up a property.
+This `prototype` property is not used in the prototype chain look-up if we were to "dot" onto the `foo` function when looking up a property.
 
 `__proto__` is also automatically created when a function is created and that is what JavaScript will use to look up methods it doesn't find immediately.
 
