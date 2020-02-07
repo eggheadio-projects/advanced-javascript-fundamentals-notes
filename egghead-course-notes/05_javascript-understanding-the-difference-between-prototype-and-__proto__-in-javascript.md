@@ -20,10 +20,6 @@ This `prototype` property is not used in the prototype chain look-up if we were 
 
 `__proto__` is also automatically created when a function is created and that is what JavaScript will use to look up methods it doesn't find immediately.
 
-[1:35] With that in mind, let's take this one step further. The .prototype property object that lives on every function except arrow functions is what becomes the dunder proto value object when the new keyword is used against the function.
-
-[1:50] As we see here, we added a test property to the automatically created .prototype object that lives on the foo function object. Whenever the new keyword is used, a new object is created. The .prototype object that lives in the function the new keyword is called against becomes the next-in-line dunder proto object of the new object created from the new keyword.
-
 ##
 ```js
 function foo() {}

@@ -49,7 +49,7 @@ addTwo(obj)
 console.log(obj) // {a: 2}
 ```
 
-When an object is passed into a function (`addTwo(obj)`), it will be passed by memory reference. That means that we are working with the same variable declared at the top of the file. 
+When an object is passed into a function (`addTwo(obj)`), it will be passed by memory reference. That means that we are working with the same variable. 
 
 ## Mutate a Primitive Type
 ```js
@@ -65,7 +65,7 @@ addTwo(num)
 console.log(num) // 1
 ```
 
-This is the same situation as we had with passsing the object into the `addTwo` function but you'll see a difference in output. Because primitive types are immutable, num inside of `addTwo` will log out 3 after being changed while the original variable defined at the top of the file remanes 1.
+This is the same situation as we had with passsing the object into the `addTwo` function but you'll see a difference in output. Because primitive types are immutable, num inside of `addTwo` will log out 3 after being changed while the original variable defined at the top of the file (see example above) remains 1.
 
 **Primitive Types are passed by value which keeps them immutable while Objects are passed by memory reference that results in mutation.**
 
